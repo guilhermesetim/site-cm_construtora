@@ -1,0 +1,70 @@
+@media screen {
+    header > p{
+        font-size: 1.8em;
+    }
+}
+
+@media screen {
+    .whoami {
+        height: 90vh;
+        
+    }
+    .descrition p {
+        font: normal var(--font-desc) 1.7em var(--font);
+    }
+    .descrition h2 {
+        font: normal var(--font-title) 4em var(--font);
+    }
+    .whoami img {
+        display: none;
+    }
+}
+
+@media screen {
+    .services{
+        background: lightgray url(../image/pexels-miguel-á-padriñán-3930092.jpg) center center no-repeat;
+    }
+    .list-services {
+        display: grid;
+        place-items: center;
+        align-items: center;
+        font: normal var(--font-dest) 1.5em var(--font);
+        position: static;
+        margin: auto;
+        
+    }
+    .list-services > h2 {
+        font: normal var(--font-title) 2.5em var(--font);
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen {
+    /*contate*/
+    .contate {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    /*phome*/
+    .contate-numbers h3 {
+        font: normal var(--font-dest) 2em var(--font);
+    }
+    .contate-numbers p{
+        font: normal var(--font-title) 3.5em var(--font);
+        
+    }
+    /*social media*/
+    .contate-social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .contate-social h3 {
+        font: normal var(--font-dest) 2em var(--font);
+    }
+    .contate-social a{
+        font: normal var(--font-title) 8em var(--font);
+    }
+}

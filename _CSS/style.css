@@ -1,0 +1,278 @@
+/*configurações gerais*/
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+:root{
+    --font: 'Source Sans Pro', sans-serif;
+    --font-title: 700;
+    --font-dest: 600;
+    --font-desc: 400;
+    --font-min: 300;
+}
+
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+	font-size: 100%;
+	text-decoration: none;
+    
+}
+
+a {color: inherit;}
+
+
+
+
+/*Whatsapp Button*/
+
+.whatsapp-link{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 3%;
+    right: 2%;
+    background-color: #25d366;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 70px;
+    box-shadow: 1px 1px 2px rgb(136, 136, 136);
+    border: 1px solid rgba(124, 124, 124, 0.295);
+    z-index: 1000;
+}
+
+.whatsapp-link .bi-whatsapp{
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    left: 3px;
+    bottom: 3px;
+}
+
+
+
+
+
+
+/*init*/
+
+header {
+    position: relative;
+    background: darkgray url('../image/front31.jpg') right bottom no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+   
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header > p{
+    position: absolute;
+    display: inline-block;
+    color: white;
+    font: normal var(--font-dest) 2.5em var(--font);
+    text-align: center;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+
+
+
+
+
+/*presentation*/
+.whoami {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.descrition p {
+    font: normal var(--font-desc) 1.8em var(--font);
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0px 50px;
+}
+.descrition h2 {
+    font: normal var(--font-title) 4em var(--font);
+    margin-bottom: 50px;
+    padding: 0px 30px;
+    text-align: center;
+}
+.whoami img {
+    margin-right: 50px;
+    border: 3px solid black;
+    width: 50%;
+}
+
+
+
+
+
+
+/*services*/
+.services{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 85vh;
+    background: lightgray url(../image/pexels-miguel-á-padriñán-3930092.jpg) left center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.list-services {
+    color: white;
+    font: normal var(--font-dest) 2em var(--font);
+    position: absolute;
+    left: 55%;
+}
+.list-services > h2 {
+    font: normal var(--font-title) 4em var(--font);
+    margin-bottom: 30px;
+}
+.list-services li {
+    margin-bottom: 10px;
+}
+.list-services i{
+    margin-right: 30px;
+}
+
+
+
+
+
+
+/*Portifólio - Carrossel*/
+.portifolio {
+    display: grid;
+    place-items: center;
+    height: 90vh;
+}
+.portifolio h2 {
+    text-align: center;
+    font: normal var(--font-title) 6em var(--font);
+}
+/*
+#slider{
+    display: grid;
+    place-items: center;
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: 90vh;
+}
+#slider img{
+    position: absolute;
+    margin: auto;
+    opacity: 0;
+
+}
+#slider img.selected{
+    opacity: 1;
+}
+*/
+/*-----------------------------------------*/
+/*
+#portifolio-obras{
+    width: 70vw;
+}
+#items:hover {
+    pointer-events: none;
+}
+#items {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+.item {
+    flex: none;
+    width: 100%;
+    height: 400px;
+    scroll-snap-align: start;
+    pointer-events: none;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+  }
+*/
+
+
+
+
+
+/*contate*/
+.contate {
+    height: 70vh;
+    background: gray url('../image/contate21.jpg') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-shadow: 3px 3px 10px black;
+    color: white;
+}
+/*phome*/
+.contate-numbers h3 {
+    font: normal var(--font-dest) 3em var(--font);
+}
+.contate-numbers p{
+    font: normal var(--font-title) 5em var(--font);
+    
+}
+/*social media*/
+.contate-social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.contate-social h3 {
+    font: normal var(--font-dest) 3em var(--font);
+}
+.contate-social a{
+    font: normal var(--font-title) 10em var(--font);
+}
+
+
+
+
+
+/*footer*/
+footer {
+    color: white;
+    font: normal var(--font-min) 0.8em var(--font);
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 10px;
+}
+#dev {
+    font: normal var(--font-dest) 1em var(--font);
+}
+#dev:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
