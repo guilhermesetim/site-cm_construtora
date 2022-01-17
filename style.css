@@ -161,6 +161,9 @@ header > p{
 .list-services i{
     margin-right: 30px;
 }
+.topico:hover {
+    color: var(--color-light);
+}
 
 
 
@@ -219,6 +222,9 @@ header > p{
 }
 .contate-social a{
     font: normal var(--font-title) 10em var(--font);
+}
+.contate p:hover{
+    color: var(--color-light);
 }
 
 
