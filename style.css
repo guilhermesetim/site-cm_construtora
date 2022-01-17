@@ -11,6 +11,11 @@
     --font-dest: 600;
     --font-desc: 400;
     --font-min: 300;
+
+    --color-main: #F6D018;
+    --color-light:#fdeb92; 
+    --color-strong: #75640C;
+    --color-title: #c5ac1b;
 }
 
 * {
@@ -109,6 +114,8 @@ header > p{
 }
 .descrition h2 {
     font: normal var(--font-title) 4em var(--font);
+    color: var(--color-title);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.712);
     margin-bottom: 50px;
     padding: 0px 30px;
     text-align: center;
@@ -117,6 +124,7 @@ header > p{
     margin-right: 50px;
     border: 3px solid black;
     width: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.315);
 }
 
 
@@ -133,6 +141,7 @@ header > p{
     background: lightgray url(pexels-miguel-á-padriñán-3930092.jpg) left center no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: 0px 0px 5px black;
 }
 .list-services {
     color: white;
@@ -143,6 +152,7 @@ header > p{
 .list-services > h2 {
     font: normal var(--font-title) 4em var(--font);
     margin-bottom: 30px;
+    color: var(--color-title);
 }
 .list-services li {
     margin-bottom: 10px;
@@ -165,6 +175,7 @@ header > p{
 .portifolio h2 {
     text-align: center;
     font: normal var(--font-title) 6em var(--font);
+    color: black;
 }
 /*
 #slider{
@@ -232,10 +243,13 @@ header > p{
     align-items: center;
     text-shadow: 3px 3px 10px black;
     color: white;
+    box-shadow: 0px 0px 5px black;
 }
 /*phome*/
 .contate-numbers h3 {
     font: normal var(--font-dest) 3em var(--font);
+    color: var(--color-main);
+    text-shadow: 2px 2px 1px black;
 }
 .contate-numbers p{
     font: normal var(--font-title) 5em var(--font);
@@ -249,6 +263,8 @@ header > p{
 }
 .contate-social h3 {
     font: normal var(--font-dest) 3em var(--font);
+    color: var(--color-main);
+    text-shadow: 2px 2px 1px black;
 }
 .contate-social a{
     font: normal var(--font-title) 10em var(--font);
