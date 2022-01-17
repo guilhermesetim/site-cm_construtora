@@ -23,14 +23,15 @@
 @media screen {
     .services{
         background: lightgray url(pexels-miguel-á-padriñán-3930092.jpg) center center no-repeat;
+        height: 70vh;
     }
     .list-services {
         display: grid;
         place-items: center;
         align-items: center;
-        font: normal var(--font-dest) 1.5em var(--font);
+        font: normal var(--font-dest) 2em var(--font);
         position: static;
-        margin: auto;
+        margin: auto auto auto 30%;
         
     }
     .list-services > h2 {

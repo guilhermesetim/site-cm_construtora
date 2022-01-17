@@ -17,6 +17,7 @@
     <link rel="stylesheet" media="(max-width: 1400px)" href="responsive-1400.css">
     <link rel="stylesheet" media="(max-width: 940px)" href="responsive-940.css">
     <link rel="stylesheet" media="(max-width: 640px)" href="responsive-640.css">
+    <link rel="stylesheet" media="(max-height: 660px)" href="responsive-mobile-old.css">
 
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     
@@ -27,16 +28,13 @@
         <i class="bi bi-whatsapp"></i>
     </a>
     <header>
-        <!--
-        <nav>
-            <a href="index.html" target="_self">Home</a>
-            <a href="#" target="_self" rel="next">Trabalhos realizados</a>
-            <a href="#" target="self" rel="next">Contato</a>
-        </nav>
-        -->
+    
+        <picture>
+            <source media="(max-width: 350px)" srcset="new_logo_mobile_pp.png">
+            <source media="(max-width: 450px)" srcset="new_logo_mobile.png">
+            <img class="logo" src="new_logo.png" alt="logo CM Construtora">
+        </picture>
         
-
-        <img class="logo" src="new_logo.png" alt="logo CM Construtora">
         <p>Construindo empreendimentos desde 2014</p>
     </header>
 
@@ -46,6 +44,7 @@
             
             <p>Estamos no ramo de construção desde 2014, atendendo toda Curitiba e Região metropolitana com a construção de empreendimentos e reformas.</p>
             <p>Possuimos uma equipe com profissionais especializados e capacitados nas diversas áreas da contrução civil, e ferramentas adequadas e especializadas, além do uso dos equipamentos de proteção individual (EPI).</p>
+        
         </div>
         <img src="service.jpg" alt="Cm construtora">
     </section>
@@ -69,23 +68,6 @@
 
     <section class="portifolio">
         <h2>Obras Realizadas</h2>
-        <!--
-        <div id="slider">
-            <img class="selected" src="image/front-p.jpg" alt="slider1">
-            <img src="image/front2-p.jpg" alt="slider2">
-            <img src="image/front3-9.jpg" alt="slider3">
-        </div>
-        
-        <div id="portifolio-obras">
-            <div id="items">
-                <div class="item"><img src="image/front-p.jpg" alt="img1"></div>
-                <div class="item"><img src="image/front2-p.jpg" alt="img2"></div>
-                <div class="item"><img src="image/front3-9.jpg" alt="img3"></div>
-
-            </div>
-
-        </div>
-        -->
 
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="4000">
             <ol class="carousel-indicators">

@@ -1,15 +1,15 @@
 @media screen {
     header > p{
-        font-size: 1.5em;
+        font-size: 1em;
     }
 }
 
 @media screen {
     .descrition p {
-        font: normal var(--font-desc) 1.2em var(--font);
+        font: normal var(--font-desc) 1em var(--font);
     }
     .descrition h2 {
-        font: normal var(--font-title) 3.5em var(--font);
+        font: normal var(--font-title) 2em var(--font);
     }
     .whoami img {
         display: none;
@@ -24,7 +24,7 @@
         display: grid;
         place-items: center;
         align-items: center;
-        font: normal var(--font-dest) 1.5em var(--font);
+        font: normal var(--font-dest) 1.3em var(--font);
         position: static;
         margin: auto auto auto 10%;
         
@@ -34,7 +34,7 @@
 
 @media screen {
     .portifolio {
-        height: 70vh;
+        height: 80vh;
     }
     .portifolio h2 {
         font: normal var(--font-title) 3em var(--font);

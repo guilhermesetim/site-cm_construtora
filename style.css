@@ -177,57 +177,7 @@ header > p{
     font: normal var(--font-title) 6em var(--font);
     color: black;
 }
-/*
-#slider{
-    display: grid;
-    place-items: center;
-    margin: auto;
-    position: relative;
-    width: 80%;
-    height: 90vh;
-}
-#slider img{
-    position: absolute;
-    margin: auto;
-    opacity: 0;
 
-}
-#slider img.selected{
-    opacity: 1;
-}
-*/
-/*-----------------------------------------*/
-/*
-#portifolio-obras{
-    width: 70vw;
-}
-#items:hover {
-    pointer-events: none;
-}
-#items {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-}
-.item {
-    flex: none;
-    width: 100%;
-    height: 400px;
-    scroll-snap-align: start;
-    pointer-events: none;
-}
-.item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.stop-scrolling {
-    height: 100%;
-    overflow: hidden;
-  }
-*/
 
 
 
