@@ -98,6 +98,15 @@ header > h2 {
     color: var(--color-title);
 }
 
+.image-modal{
+    margin-top: 10px;
+    height: 300px;
+    width: 400px;
+    border: 1px solid black
+}
+
+
+
 
   /*footer*/
 .rodape {
@@ -130,9 +139,4 @@ header > h2 {
 
 
 
-.image-modal{
-    margin-top: 10px;
-    height: 300px;
-    width: 400px;
-    border: 1px solid black
-}
+
