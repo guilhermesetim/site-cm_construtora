@@ -139,7 +139,7 @@ header > p{
     align-items: center;
     flex-direction: row-reverse;
     height: 85vh;
-    background: lightgray url('services.jpg') left center no-repeat;
+    background: lightgray url(services-background.jpg) left center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     box-shadow: 0px 0px 5px black;
