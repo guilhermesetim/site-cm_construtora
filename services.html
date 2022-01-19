@@ -28,100 +28,255 @@
     <header>
         <h2>Obras realizadas</h2>
     </header>
-    
+
     <main id="gallery">
         <div class="card-group">
+          <!--First Card-->
             <div class="block-card">
                 <div class="card">
                     <img src="images/cards/card-01.jpg" class="card-img-top" alt="Sobrados">
-                    <span class="background-plus"><i class="bi bi-plus-circle-fill plus"></i></span>
+                    <span class="background-plus"><i class="bi bi-plus-circle-fill plus" data-toggle="modal" data-target="#firstModal"></i></span>
                   <div class="card-body">
                     <h5 class="card-title">Sobrados</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
                 </div>
             </div>
-            
-
-            <div class="block-card">
-                <div class="card">
-                    <img src="images/cards/card-02.jpg" class="card-img-top" alt="Deck">
-                    <span class="background-plus"><i class="bi bi-plus-circle-fill plus"></i></span>
-                  <div class="card-body">
-                    <h5 class="card-title">Deck</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <!--First Card (Modal)-->
+            <div class="modal fade" id="firstModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Sobrados</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                   </div>
-                </div>
-            </div>
-
-            <div class="block-card">
-                <div class="card">
-                    <img src="images/cards/card-03.jpg" class="card-img-top" alt="Pisos">
-                    <span class="background-plus"><i class="bi bi-plus-circle-fill plus"></i></span>
-                  <div class="card-body">
-                    <h5 class="card-title">Pisos</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="block-card">
-                <div class="card">
-                    <img src="images/cards/card-04.jpg" class="card-img-top" alt="Casa na árvore">,
-                    <span class="background-plus"><i class="bi bi-plus-circle-fill plus"></i></span>
-                  <div class="card-body">
-                    <h5 class="card-title">Casa na árvore</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-            </div>
-             
-            <div class="block-card">
-                <div class="card">
-                    <img src="images/cards/card-05.jpg" class="card-img-top" alt="Pergolado">
-                    <span class="background-plus"><i class="bi bi-plus-circle-fill plus"></i></span>
-                  <div class="card-body">
-                    <h5 class="card-title">Pergolado</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="block-card">
-                <div class="card">
-                    <img src="images/cards/card-06.jpg" class="card-img-top" alt="Telhado">
-                    <span class="background-plus"><i class="bi bi-plus-circle-fill plus"></i></span>
+                  <div class="modal-body">
+                    <img class="image-modal" src="images/g1-sobrado/01.jpg" alt="photo1">
+                    <img class="image-modal" src="images/g1-sobrado/02.jpg" alt="photo2">
+                    <img class="image-modal" src="images/g1-sobrado/03.jpg" alt="photo3">
+                    <img class="image-modal" src="images/g1-sobrado/04.jpg" alt="photo4">
+                    <img class="image-modal" src="images/g1-sobrado/05.jpg" alt="photo5">
+                    <img class="image-modal" src="images/g1-sobrado/06.jpg" alt="photo6">
+                    <img class="image-modal" src="images/g1-sobrado/07.jpg" alt="photo7">
                     
-                  <div class="card-body">
-                    <h5 class="card-title">Telhado</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
                 </div>
-            </div>
-
-            <div class="block-card">
-                <div class="card">
-                    <img src="images/cards/card-07.jpg" class="card-img-top" alt="Revestimento">
-                    <span class="background-plus"><i class="bi bi-plus-circle-fill plus"></i></span>
-                  <div class="card-body">
-                    <h5 class="card-title">Revestimento</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-            </div>
-
-            <div class="block-card">
-                <div class="card">
-                    <img src="images/cards/card-08.jpg" class="card-img-top" alt="Altar de igreja">
-                    <span class="background-plus"><i class="bi bi-plus-circle-fill plus"></i></span>
-                  <div class="card-body">
-                    <h5 class="card-title">Altar de igreja</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
+              </div>
             </div>
             
+
+
+              <!--Second Card-->
+              <div class="block-card">
+                <div class="card">
+                    <img src="images/cards/card-02.jpg" class="card-img-top" alt="Deck & Pergolado">
+                    <span class="background-plus"><i class="bi bi-plus-circle-fill plus" data-toggle="modal" data-target="#secondModal"></i></span>
+                  <div class="card-body">
+                    <h5 class="card-title">Deck & Pergolado</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+            </div>
+            <!--Second Card (Modal)-->
+            <div class="modal fade" id="secondModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Deck & Pergolado</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                      <img class="image-modal" src="images/g2-deckpergolado/01.jpg" alt="photo1">
+                      <img class="image-modal" src="images/g2-deckpergolado/02.jpg" alt="photo2">
+                      <img class="image-modal" src="images/g2-deckpergolado/03.jpg" alt="photo3">
+                      <img class="image-modal" src="images/g2-deckpergolado/04.jpg" alt="photo4">
+                      <img class="image-modal" src="images/g2-deckpergolado/05.jpg" alt="photo5">
+                      <img class="image-modal" src="images/g2-deckpergolado/06.jpg" alt="photo6">
+                      <img class="image-modal" src="images/g2-deckpergolado/07.jpg" alt="photo7">
+                      <img class="image-modal" src="images/g2-deckpergolado/08.jpg" alt="photo8">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Third Card-->
+            <div class="block-card">
+              <div class="card">
+                  <img src="images/cards/card-03.jpg" class="card-img-top" alt="Pisos">
+                  <span class="background-plus"><i class="bi bi-plus-circle-fill plus" data-toggle="modal" data-target="#thirdModal"></i></span>
+                <div class="card-body">
+                  <h5 class="card-title">Pisos</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+          </div>
+          <!--Third Card (Modal)-->
+          <div class="modal fade" id="thirdModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Pisos</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                      <img class="image-modal" src="images/g3-piso/01.jpg" alt="photo1">
+                      <img class="image-modal" src="images/g3-piso/02.jpg" alt="photo2">
+                      <img class="image-modal" src="images/g3-piso/03.jpg" alt="photo3">
+                      <img class="image-modal" src="images/g3-piso/04.jpg" alt="photo4">
+                      <img class="image-modal" src="images/g3-piso/05.jpg" alt="photo5">
+                      <img class="image-modal" src="images/g3-piso/06.jpg" alt="photo6">
+                      <img class="image-modal" src="images/g3-piso/07.jpg" alt="photo7">
+                      <img class="image-modal" src="images/g3-piso/08.jpg" alt="photo8">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Fourth Card-->
+          <div class="block-card">
+            <div class="card">
+                <img src="images/cards/card-04.jpg" class="card-img-top" alt="Casa na árvore">
+                <span class="background-plus"><i class="bi bi-plus-circle-fill plus" data-toggle="modal" data-target="#fourthModal"></i></span>
+              <div class="card-body">
+                <h5 class="card-title">Casa na árvore</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
         </div>
+        <!--Fourth Card (Modal)-->
+        <div class="modal fade" id="fourthModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Casa na árvore</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img class="image-modal" src="images/g4-casa-arvore/01.jpg" alt="photo1">
+                <img class="image-modal" src="images/g4-casa-arvore/02.jpg" alt="photo2">
+                <img class="image-modal" src="images/g4-casa-arvore/03.jpg" alt="photo3">
+                <img class="image-modal" src="images/g4-casa-arvore/04.jpg" alt="photo4">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Fifth Card-->
+          <div class="block-card">
+            <div class="card">
+                <img src="images/cards/card-05.jpg" class="card-img-top" alt="Revestimento">
+                <span class="background-plus"><i class="bi bi-plus-circle-fill plus" data-toggle="modal" data-target="#fifthModal"></i></span>
+              <div class="card-body">
+                <h5 class="card-title">Revestimento</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+            </div>
+
+          <!--Fifth Card (Modal)-->
+          <div class="modal fade" id="fifthModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Revestimento</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img class="image-modal" src="images/g5-revestimento/01.jpg" alt="photo1">
+                  <img class="image-modal" src="images/g5-revestimento/02.jpg" alt="photo2">
+                  <img class="image-modal" src="images/g5-revestimento/03.jpg" alt="photo3">
+                  <img class="image-modal" src="images/g5-revestimento/04.jpg" alt="photo4">
+                  <img class="image-modal" src="images/g5-revestimento/05.jpg" alt="photo5">
+                  <img class="image-modal" src="images/g5-revestimento/06.jpg" alt="photo6">
+                  <img class="image-modal" src="images/g5-revestimento/07.jpg" alt="photo7">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <!--Sixth Card-->
+          <div class="block-card">
+            <div class="card">
+                <img src="images/cards/card-01.jpg" class="card-img-top" alt="Jazigo">
+                <span class="background-plus"><i class="bi bi-plus-circle-fill plus" data-toggle="modal" data-target="#sixthModal"></i></span>
+              <div class="card-body">
+                <h5 class="card-title">Jazigo</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+        </div>
+        <!--Sixth Card (Modal)-->
+        <div class="modal fade" id="sixthModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Jazigo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <img class="image-modal" src="images/g6-jazigo/01.png" alt="photo1">
+                  <img class="image-modal" src="images/g6-jazigo/02.png" alt="photo2">
+                  <img class="image-modal" src="images/g6-jazigo/03.png" alt="photo3">
+                  <img class="image-modal" src="images/g6-jazigo/04.jpg" alt="photo4">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--seventh Card-->
+        <div class="block-card">
+          <div class="card">
+              <img src="images/cards/card-07.jpg" class="card-img-top" alt="Altar">
+              <span class="background-plus"><i class="bi bi-plus-circle-fill plus" data-toggle="modal" data-target="#seventhModal"></i></span>
+            <div class="card-body">
+              <h5 class="card-title">Altar</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+      </div>
+      <!--seventh Card (Modal)-->
+      <div class="modal fade" id="seventhModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Altar</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                  <img class="image-modal" src="images/g7-altar/01.jpg" alt="photo1">
+                  <img class="image-modal" src="images/g7-altar/02.jpg" alt="photo2">
+                  <img class="image-modal" src="images/g7-altar/03.jpg" alt="photo3">
+                  <img class="image-modal" src="images/g7-altar/04.jpg" alt="photo4">
+                  <img class="image-modal" src="images/g7-altar/05.jpg" alt="photo5">
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+            
+      </div>
     </main>
     <footer class="rodape">
         <p>&copy; CM Construtora   |   CNPJ: 13.349.668/0001-90</p>
