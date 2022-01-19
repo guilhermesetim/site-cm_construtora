@@ -37,7 +37,7 @@
         height: 80vh;
     }
     .portifolio h2 {
-        font: normal var(--font-title) 3em var(--font);
+        font: normal var(--font-title) 2em var(--font);
     }
 }
 

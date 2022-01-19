@@ -14,7 +14,7 @@
 
     --color-main: #F6D018;
     --color-light:#fdeb92; 
-    --color-strong: #75640C;
+    --color-strong: #6d5f19;
     --color-title: #c5ac1b;
 }
 
@@ -114,7 +114,7 @@ header > p{
 }
 .descrition h2 {
     font: normal var(--font-title) 4em var(--font);
-    color: var(--color-title);
+    color: var(--color-strong);
     text-shadow: 1.3px 1.3px 1px rgba(0, 0, 0, 0.616);
     margin-bottom: 50px;
     padding: 0px 30px;
@@ -175,16 +175,30 @@ header > p{
     display: grid;
     place-items: center;
     height: 90vh;
+    
 }
 .portifolio h2 {
+    margin-top: 1vh;
+    margin: 1vh 5px;
     text-align: center;
     font: normal var(--font-title) 6em var(--font);
     color: black;
+    background-color: var(--color-title);
+    padding: 5px 20px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.459);
+    border: 1px solid black
 }
-
+.portifolio h2:hover{
+    background-color: var(--color-strong);
+}
+.portifolio a:hover{
+    text-decoration: none;
+}
 .carousel-inner {
     height: 50vh;
 }
+
 
 
 
