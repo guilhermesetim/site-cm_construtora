@@ -134,8 +134,43 @@ header > h2 {
     .rodape {
         font-size: 0.5em;
     }
+
+    .image-modal{
+        
+        height: 250px;
+        width: 300px;
+        
+    }
+
        
 }
+
+@media screen and (max-width: 350px){
+    
+
+    .image-modal{
+        
+        height: 200px;
+        width: 250px;
+        
+    }
+
+       
+}
+
+@media screen and (max-width: 300px){
+    
+
+    .image-modal{
+        
+        height: 180px;
+        width: 230px;
+        
+    }
+
+       
+}
+
 
 
 
