@@ -29,7 +29,7 @@
     
 }
 
-a {color: inherit;}
+a:visited {color: inherit;}
 
 
 
@@ -54,6 +54,18 @@ header > h2 {
     top: 50%;
     transform: translate(0%, -50%);
 }
+
+header > nav {
+    position: absolute;
+    color: white;
+    top: 5%;
+    right: 5%;
+    font-size: 3vh;
+}
+header a:hover{
+    color: white;
+}
+
 
 
 #gallery {
