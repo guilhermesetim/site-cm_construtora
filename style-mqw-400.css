@@ -1,0 +1,100 @@
+@media screen {
+    /*header*/
+    header > p{
+        font-size: 1em;
+    }
+    /*presentation*/
+    .presentation {
+        height: 500px;
+    }
+    .descrition p {
+        font-size: 1em;
+        text-indent: 10px;
+    }
+    .descrition h2 {
+        font-size: 2em;
+    }
+    @media screen and (max-width: 310px) {
+        .descrition p {
+            font-size: 0.8em;
+            text-indent: 10px;
+        }
+        .descrition h2 {
+            font-size: 1.5em;
+        }
+    }
+
+    /*services*/
+    .services{
+        display: grid;
+        height: 400px;
+        background-position: right center;
+        align-items: center;
+        right: 0%;
+    }
+    .list-services {
+        font-size: 1em;
+        
+    }
+    .list-services > h2 {
+        font-size: 1.5em;
+    }
+    @media screen and (max-width: 310px) {
+        .list-services {
+            font-size: 0.8em;
+            
+        }
+        .list-services > h2 {
+            font-size: 1.5em;
+        }
+    }
+
+    /*Works - Carrossel*/
+    .works h2 {
+        margin-top: 10px;
+        font-size: 1em;
+    }
+    @media screen and (max-width: 310px) {
+        .works h2 {font-size: 0.8em;}
+    }
+
+    /*contate*/
+    
+    .contact-numbers h3 {
+        font-size: 1.5em;
+    }
+    .contact-numbers p{
+        font-size: 2em;
+    }
+    .contact-social h3 {
+        font-size: 1.5em;
+    }
+    .contact-social a{
+        font-size: 5em;
+    }
+    @media screen and (max-width: 310px) {
+        .contact-numbers h3 {
+            font-size: 1.3em;
+        }
+        .contact-numbers p{
+            font-size: 1.8em;
+        }
+        .contact-social h3 {
+            font-size: 1.3em;
+        }
+        .contact-social a{
+            font-size: 4em;
+        }
+    
+        footer{
+            font-size: 0.65em;
+        }
+    }
+
+
+    /*footer*/
+    footer{
+        font-size: 0.5em;
+    }
+    
+}

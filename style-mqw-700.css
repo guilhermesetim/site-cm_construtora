@@ -1,0 +1,60 @@
+@media screen {
+    /*header*/
+    header > p{
+        font-size: 1.2em;
+    }
+
+    /*presentation*/
+    .presentation img {
+        display: none;
+    }
+
+    /*services*/
+    .services{
+        height: 500px;
+        background-position: center center;
+    }
+    .list-services {
+        font-size: 1.2em;
+    }
+    .list-services > h2 {
+        font-size: 2.5em;
+    }
+
+    /*Works - Carrossel*/
+    .works {
+        flex-direction: column;
+    }
+    .works h2 {
+        margin-top: 20px;
+        width: 50vw;
+        font-size: 1.5em;
+    }
+
+    /*contate*/
+    .contact {
+        height: 600px;
+        flex-direction: column;
+    }
+    .contact-numbers h3 {
+        font-size: 1.8em;
+    }
+    .contact-numbers p{
+        font-size: 2.5em;
+    }
+    .contact-social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .contact-social h3 {
+        font-size: 1.8em;
+    }
+    .contact-social a{
+        font-size: 6em;
+    }
+
+    footer{
+        font-size: 0.65em;
+    }
+}

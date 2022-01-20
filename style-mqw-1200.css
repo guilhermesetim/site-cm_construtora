@@ -1,0 +1,66 @@
+@media screen {
+/*header*/
+header > p{
+    font-size: 2em;    
+}
+
+/*presentation*/
+.presentation {
+    height: 500px;
+}
+.descrition p {
+    font-size: 1.2em;
+    text-indent: 20px;
+}
+.descrition h2 {
+    font-size: 3em;
+    
+}
+    
+
+/*services*/
+.services{
+    height: 500px;
+    background-position: center center;
+}
+.list-services {
+    font-size: 1.5em;
+}
+.list-services > h2 {
+    font-size: 3em;
+}
+
+
+/*works*/
+.works h2 {
+    font-size: 2em;
+}
+
+@media screen and (max-width: 800px) {
+    .works h2 {font-size: 1.5em;}
+}
+
+
+/*contate*/
+.contact{
+    height: 400px;
+}
+.contact-numbers h3 {
+    font-size: 1.8em;
+}
+.contact-numbers p{
+    font-size: 3em;
+}
+.contact-social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.contact-social h3 {
+    font-size: 1.8em;
+}
+.contact-social a{
+    font-size: 6em;
+}
+
+}

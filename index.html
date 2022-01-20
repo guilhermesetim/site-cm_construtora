@@ -22,10 +22,10 @@
 
     <!--Css página home-->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="(max-width: 1400px)" href="style-responsive-1400.css">
-    <link rel="stylesheet" media="(max-width: 940px)" href="style-responsive-940.css">
-    <link rel="stylesheet" media="(max-width: 640px)" href="style-responsive-640.css">
-    <link rel="stylesheet" media="(max-height: 660px)" href="style-responsive-mobile-old.css">
+    <link rel="stylesheet" media="(max-width: 1200px)" href="style-mqw-1200.css">
+    <link rel="stylesheet" media="(max-width: 700px)" href="style-mqw-700.css">
+    <link rel="stylesheet" media="(max-width: 400px)" href="style-mqw-400.css">
+    
 
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     
@@ -48,7 +48,8 @@
     </header>
 
     <main>
-        <section class="whoami">
+        <!--presentation-->
+        <section class="presentation">
             <div class="descrition">
                 <h2>Construção de qualidade</h2>
         
@@ -59,64 +60,72 @@
             <img src="presentation.jpg" alt="Cm construtora">
         </section>
         
+        <!--services-->
         <section class="services">
         
             <div class="list-services">
                 <h2>Serviços</h2>
                 <ul type='none'>
-                    <li class="topico"><i class="bi bi-hammer"></i> Construção de empreendimentos</li>
-                    <li class="topico"><i class="bi bi-outlet"></i> Elétrica</li>
-                    <li class="topico"><i class="bi bi-droplet-fill"></i> Hidráulica</li>
-                    <li class="topico"><i class="bi bi-hash"></i> Deck</li>
-                    <li class="topico"><i class="bi bi bi-back"></i> Instalação de pisos</li>
-                    <li class="topico"><i class="bi bi-palette"></i> Pintura</li>
-                    <li class="topico"><i class="bi bi-tools"></i> Reformas em geral</li>
+                    <li class="topic-service"><i class="bi bi-hammer"></i> Construção de empreendimentos</li>
+                    <li class="topic-service"><i class="bi bi-outlet"></i> Elétrica</li>
+                    <li class="topic-service"><i class="bi bi-droplet-fill"></i> Hidráulica</li>
+                    <li class="topic-service"><i class="bi bi-hash"></i> Deck</li>
+                    <li class="topic-service"><i class="bi bi bi-back"></i> Instalação de pisos</li>
+                    <li class="topic-service"><i class="bi bi-palette"></i> Pintura</li>
+                    <li class="topic-service"><i class="bi bi-tools"></i> Reformas em geral</li>
                 </ul>
             </div>
         </section>
-        <section class="portifolio">
+
+
+        <!--works-->
+        <section class="works">
             
-            <a href="services.html">
-                <h2>Conheça o nosso trabalho</h2>
-            </a>
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="4000">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="services.html"><img class="d-block w-100" src="images/cards/card-01.jpg" alt="First slide"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="services.html"><img class="d-block w-100" src="images/cards/card-02.jpg" alt="Second slide"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="services.html"><img class="d-block w-100" src="images/cards/card-04.jpg" alt="Third slide"></a>
-                  </div>
+                <a href="services.html">
+                    <h2>Conheça o nosso trabalho</h2>
+                </a>
+            
+            <div id="#carousel-gallery">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="4000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <a href="services.html"><img class="d-block w-100" src="images/cards/card-01.jpg" alt="First slide"></a>
+                        </div>
+                        <div class="carousel-item">
+                        <a href="services.html"><img class="d-block w-100" src="images/cards/card-02.jpg" alt="Second slide"></a>
+                        </div>
+                        <div class="carousel-item">
+                        <a href="services.html"><img class="d-block w-100" src="images/cards/card-05.jpg" alt="Third slide"></a>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+            </div>
+            
             
         </section>
-        <section class="contate">
-            <div class="contate-numbers">
+        <section class="contact">
+            <div class="contact-numbers">
                 <h3>Entre em contato cononsco</h3>
                 <p><a href="tel:+55-41-99577-7311"><i style="color: #44CC64;" class="bi bi-whatsapp"></i> 41 9 9577-7311</a></p>
                 <p><a href="tel:+55-41-99567-2848"><i style="color: #44CC64;" class="bi bi-whatsapp"></i> 41 9 9567-2848</a></p>
             </div>
-            <div class="contate-social">
+            <div class="contact-social">
                 <h3>Nossas redes sociais</h3>
         
-                <div class="contate-social-icons">
+                <div class="contact-social-icons">
                     <p><a href="https://www.facebook.com/claytoncmconstrutora/"><i style="color: #3b5998" class="bi bi-facebook"></i></a></p>
                     <p><a href="https://www.instagram.com/claytoncmconstrutora/"><i style="color:#F13074" class="bi bi-instagram"></i></a></p>
                 </div>

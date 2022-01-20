@@ -99,8 +99,8 @@ header > p{
 
 
 /*presentation*/
-.whoami {
-    height: 100vh;
+.presentation {
+    height: 700px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -121,10 +121,10 @@ header > p{
     text-align: center;
     
 }
-.whoami img {
+.presentation img {
     margin-right: 50px;
     border: 3px solid black;
-    width: 50%;
+    width: 40%;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.315);
 }
 
@@ -138,7 +138,7 @@ header > p{
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    height: 85vh;
+    height: 700px;
     background: lightgray url(services-background.jpg) left center no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -148,7 +148,7 @@ header > p{
     color: white;
     font: normal var(--font-dest) 2em var(--font);
     position: absolute;
-    left: 55%;
+    right: 8%;
 }
 .list-services > h2 {
     font: normal var(--font-title) 4em var(--font);
@@ -161,7 +161,7 @@ header > p{
 .list-services i{
     margin-right: 30px;
 }
-.topico:hover {
+.topic-service:hover {
     color: var(--color-light);
 }
 
@@ -170,34 +170,43 @@ header > p{
 
 
 
-/*Portifólio - Carrossel*/
-.portifolio {
-    display: grid;
-    place-items: center;
-    height: 90vh;
-    
+/*Works - Carrossel*/
+.works {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 5vw;
+
+    /*display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-evenly;*/
 }
-.portifolio h2 {
-    margin-top: 1vh;
-    margin: 1vh 5px;
+.works h2 {
+    width: 20vw;
     text-align: center;
-    font: normal var(--font-title) 6em var(--font);
+    font: normal var(--font-title) 3em var(--font);
+    text-align: center;
     color: black;
     background-color: var(--color-title);
-    padding: 5px 20px;
+    padding: 15px;
     border-radius: 30px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.459);
     border: 1px solid black
+
+    /*grid-column: 1;  
+    justify-self: center;*/
 }
-.portifolio h2:hover{
+.works h2:hover{
     background-color: var(--color-strong);
 }
-.portifolio a:hover{
+.works a:hover{
     text-decoration: none;
 }
-.carousel-inner {
-    height: 50vh;
-}
+
+
+
 
 
 
@@ -205,8 +214,8 @@ header > p{
 
 
 /*contate*/
-.contate {
-    height: 75vh;
+.contact {
+    height: 500px;
     background: gray url(contate21.jpg) center center no-repeat;
     background-size: cover;
     display: flex;
@@ -217,35 +226,35 @@ header > p{
     box-shadow: 0px 0px 5px black;
 }
 /*phone*/
-.contate-numbers h3 {
+.contact-numbers h3 {
     font: normal var(--font-dest) 3em var(--font);
     color: var(--color-main);
     text-shadow: 2px 2px 1px black;
 }
-.contate-numbers p{
+.contact-numbers p{
     font: normal var(--font-title) 5em var(--font);
 }
-.contate-numbers a{
+.contact-numbers a{
     text-decoration: none;
     color: white;
 }
 
 
 /*social media*/
-.contate-social-icons {
+.contact-social-icons {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-.contate-social h3 {
+.contact-social h3 {
     font: normal var(--font-dest) 3em var(--font);
     color: var(--color-main);
     text-shadow: 2px 2px 1px black;
 }
-.contate-social a{
+.contact-social a{
     font: normal var(--font-title) 10em var(--font);
 }
-.contate p:hover{
+.contact p:hover{
     color: var(--color-light);
 }
 
