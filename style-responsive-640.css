@@ -18,7 +18,7 @@
 
 @media screen {
     .services{
-        background: lightgray url(pexels-miguel-á-padriñán-3930092.jpg) center center no-repeat;
+        background: lightgray url(services-background.jpg) center center no-repeat;
     }
     .list-services {
         display: grid;
