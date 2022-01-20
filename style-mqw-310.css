@@ -1,0 +1,42 @@
+@media screen {
+    /*presentation*/
+    .descrition p {
+        font-size: 0.8em;
+        text-indent: 10px;
+    }
+    .descrition h2 {
+        font-size: 1.5em;
+    }
+
+    /*services*/
+    .list-services {
+        font-size: 0.8em;
+        
+    }
+    .list-services > h2 {
+        font-size: 1.5em;
+    }
+
+    /*Works - Carrossel*/
+    .works h2 {font-size: 0.8em;}
+   
+
+    /*contate*/
+    .contact-numbers h3 {
+        font-size: 1.3em;
+    }
+    .contact-numbers p{
+        font-size: 1.8em;
+    }
+    .contact-social h3 {
+        font-size: 1.3em;
+    }
+    .contact-social a{
+        font-size: 4em;
+    }
+
+    /*footer*/
+    footer{
+        font-size: 0.65em;
+    }
+}
