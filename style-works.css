@@ -32,6 +32,32 @@
 a:visited {color: inherit;}
 
 
+/*Whatsapp Button*/
+
+.whatsapp-link{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 3%;
+    right: 2%;
+    background-color: #25d366;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 70px;
+    box-shadow: 1px 1px 2px rgb(136, 136, 136);
+    border: 1px solid rgba(124, 124, 124, 0.295);
+    z-index: 1000;
+}
+
+.whatsapp-link .bi-whatsapp{
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    left: 3px;
+    bottom: 3px;
+}
+
+
 
 /*init*/
 
